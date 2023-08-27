@@ -1,0 +1,25 @@
+@import "../../styles/colors.scss";
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.6rem;
+  border-radius: 8px;
+  height: 40px;
+  color: white;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0.6rem;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.button:hover {
+  transition-duration: 0.3s;
+  filter: brightness(1.1);
+}
