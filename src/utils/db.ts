@@ -17,8 +17,8 @@ async function connect() {
   }
 
   require("dotenv").config();
-  let urlDev = `mongodb+srv://tokito376:${process.env.DB_PASS}@cluster0.idflq7x.mongodb.net/`;
-  let urlProd = `mongodb+srv://tokito376:${process.env.DB_PASS}@cluster0.idflq7x.mongodb.net/`;
+  let urlDev = `mongodb+srv://${process.env.DB_NAME}:${process.env.DB_PASS}@cluster0.idflq7x.mongodb.net/`;
+  let urlProd = `mongodb+srv://${process.env.DB_NAME}:${process.env.DB_PASS}@cluster0.idflq7x.mongodb.net/`;
   console.log(
     "Estamos en DEV =>",
     process.env.NODE_ENV === "development" && urlDev
