@@ -77,16 +77,6 @@ export default function LoginPage() {
           </span>
         </form>
       </div>
-      <div className={styles.backgroundDark}>
-        <div className={styles.imgContainer}>
-          <Image
-            width={1920}
-            height={1080}
-            src="/auth-bg.png"
-            alt="Login Background"
-          />
-        </div>
-      </div>
     </div>
   );
 }
